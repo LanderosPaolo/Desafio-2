@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e0dcd8;
+}
+
+header {
+    padding: 60px;
+    background-image: url(../Imagenes/header.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+h1 {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.firstWord, .secondWord {
+    font-family: 'Rubik Marker Hatch', cursive;
+    color: rgb(255, 0, 0);
+    text-shadow: 5px 5px 8px rgb(130, 0, 0);
+}
+
+.center {
+    text-align: right;
+    font-size: 35px;
+}
+
+.container {
+    margin: 9px auto;
+    width: 50%;
+    display: inline-block;
+    position: relative;
+    left: 37%;
+}
+
+.description {
+    width: 50%;
+    position: absolute;
+    top: -20px;
+    left: 120px;
+}
+
+.price {
+    position: absolute;
+    top: 150px;
+    left: 360px;
+}
+
+.imgstyle {
+    width: 8rem;
+    height: 12.78rem;
+    border-radius: 17px;
+    padding: 10.2px;
+}
+
+div p {
+    padding: 30px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer {
+    background-color: rgb(117, 164, 22);
+    padding: 16px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #062a06;
+}
